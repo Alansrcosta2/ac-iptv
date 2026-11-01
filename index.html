@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920,height=1080,user-scalable=no">
+<title>SKY IPTV</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- AVPlay hardware surface. Must stay in the DOM at all times on Tizen. -->
+<object id="av-player" type="application/avplayer"></object>
+<video id="av-fallback" playsinline></video>
+
+<div id="app">
+
+  <!-- boot / loading -->
+  <section id="scr-boot" class="screen visible">
+    <div class="boot-box">
+      <div class="brand">SKY<span>IPTV</span></div>
+      <div class="boot-status" id="boot-status" data-i18n="boot.starting"></div>
+      <div class="boot-bar"><i id="boot-bar-fill"></i></div>
+      <div class="boot-hint" id="boot-hint"></div>
+    </div>
+  </section>
+
+  <!-- source setup -->
+  <section id="scr-setup" class="screen">
+    <div class="setup-box">
+      <div class="brand small">SKY<span>IPTV</span></div>
+      <h1 data-i18n="setup.title"></h1>
+      <p class="muted" data-i18n="setup.desc"></p>
+      <div class="field" id="setup-url-field" data-focus="0">
+        <label data-i18n="setup.url"></label>
+        <div class="field-value" id="setup-url-value"></div>
+      </div>
+      <div class="setup-actions">
+        <button class="btn primary" data-focus="1" id="setup-save" data-i18n="setup.save"></button>
+        <button class="btn" data-focus="2" id="setup-paste" data-i18n="setup.default"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Background of the UI while the stream plays: panels covering everything
+       outside the video area. The video lives on the hardware layer, so anything
+       opaque drawn on top hides it - this is how the "hole" is left open. -->
+  <div id="pip-mask"><i class="m t"></i><i class="m b"></i><i class="m l"></i><i class="m r"></i></div>
+  <div id="pip-frame"></div>
+
+  <!-- browse -->
+  <section id="scr-browse" class="screen">
+    <header id="topbar">
+      <div class="brand small">SKY<span>IPTV</span></div>
+      <nav id="tabs"></nav>
+      <div class="top-right">
+        <div class="top-btn" id="btn-search" data-i18n="browse.search"></div>
+        <div class="top-btn" id="btn-settings" data-i18n="browse.settings"></div>
+        <div class="clock" id="clock"></div>
+      </div>
+    </header>
+    <div id="groupbar">
+      <div id="group-strip"></div>
+    </div>
+    <div id="body">
+      <main id="content">
+        <div id="content-head">
+          <h2 id="content-title"></h2>
+          <span id="content-count" class="muted"></span>
+        </div>
+        <div id="grid" class="scroller"></div>
+        <div id="empty" class="empty hidden" data-i18n="grid.empty"></div>
+      </main>
+    </div>
+    <footer id="hintbar">
+      <span><i class="key">OK</i> <b data-i18n="hint.select"></b></span>
+      <span><i class="key c-red">A</i> <b data-i18n="hint.fav"></b></span>
+      <span><i class="key c-green">B</i> <b data-i18n="hint.search"></b></span>
+      <span><i class="key c-yellow">C</i> <b data-i18n="hint.reload"></b></span>
+      <span><i class="key c-blue">D</i> <b data-i18n="hint.source"></b></span>
+      <span><i class="key">CH</i> <b data-i18n="hint.page"></b></span>
+    </footer>
+  </section>
+
+  <!-- settings -->
+  <section id="scr-settings" class="screen">
+    <div id="settings-box">
+      <h1 data-i18n="settings.title"></h1>
+      <div id="settings-list"></div>
+      <div class="muted" id="settings-hint" data-i18n="settings.hint"></div>
+    </div>
+  </section>
+
+  <!-- search -->
+  <section id="scr-search" class="screen">
+    <div id="search-head">
+      <div class="search-input" id="search-input"><span id="search-text"></span><i class="caret"></i></div>
+      <div class="muted" id="search-info"></div>
+    </div>
+    <div id="search-body">
+      <div id="keyboard"></div>
+      <div id="search-results" class="scroller"></div>
+    </div>
+  </section>
+
+  <!-- episodes of a series -->
+  <section id="scr-episodes" class="screen">
+    <div id="ep-head">
+      <h2 id="ep-title"></h2>
+      <span class="muted" id="ep-sub"></span>
+    </div>
+    <div id="ep-body">
+      <div id="season-list" class="scroller"></div>
+      <div id="episode-list" class="scroller"></div>
+    </div>
+  </section>
+
+  <!-- player overlay -->
+  <section id="scr-player" class="screen">
+    <div id="subtitle-layer"><div id="subtitle-text"></div></div>
+
+    <div id="player-top" class="fade">
+      <div class="pt-title" id="pl-title"></div>
+      <div class="pt-sub" id="pl-sub"></div>
+    </div>
+
+    <div id="spinner" class="hidden"><i></i><span id="spinner-text"></span></div>
+    <div id="toast" class="hidden"><span id="toast-text"></span></div>
+    <div id="sub-status" class="hidden"></div>
+
+    <div id="controls" class="fade">
+      <div class="seek-row" id="seek-row">
+        <span class="t left" id="pl-cur">00:00</span>
+        <div class="seek"><i id="seek-fill"></i><b id="seek-knob"></b><u id="seek-delta" class="hidden"></u></div>
+        <span class="t right" id="pl-dur">00:00</span>
+      </div>
+      <div class="ctl-row" id="ctl-row"></div>
+    </div>
+
+    <div id="track-menu" class="hidden">
+      <div class="tm-head" id="tm-head"></div>
+      <div class="tm-list" id="tm-list"></div>
+    </div>
+  </section>
+
+  <!-- diagnostic log overlay: toggled with the INFO key during playback -->
+  <div id="debug-log" class="hidden"></div>
+
+  <!-- shown while a stream keeps playing behind the list, on any screen -->
+  <div id="pip-hint" class="hidden"></div>
+
+  <div id="modal" class="hidden">
+    <div class="modal-box">
+      <div class="modal-title" id="modal-title"></div>
+      <div class="modal-text" id="modal-text"></div>
+      <div class="modal-actions" id="modal-actions"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="$WEBAPIS/webapis/webapis.js"></script>
+<script src="js/local-config.js" onerror="void 0"></script>
+<script src="js/log.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/util.js"></script>
+<script src="js/keys.js"></script>
+<script src="js/store.js"></script>
+<script src="js/m3u.js"></script>
+<script src="js/keyboard.js"></script>
+<script src="js/subs.js"></script>
+<script src="js/player.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+(function(){
+  var W=1920,H=1080;
+  function fit(){
+    var sx=window.innerWidth/W, sy=window.innerHeight/H;
+    var sc=Math.min(sx,sy);
+    var app=document.getElementById('app');
+    if(app){ app.style.transform='scale('+sc+')'; app.style.transformOrigin='top left';
+      app.style.left=((window.innerWidth-W*sc)/2)+'px';
+      app.style.top=((window.innerHeight-H*sc)/2)+'px';
+    }
+  }
+  window.addEventListener('resize',fit);
+  window.addEventListener('load',fit);
+  setTimeout(fit,100);
+})();
+</script>
+
+</body>
+</html>

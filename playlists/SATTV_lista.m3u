@@ -1,0 +1,205 @@
+#EXTM3U
+#EXTINF:-1 tvg-chno="2",TV CULTURA
+https://player-tvcultura.stream.uol.com.br/live/tvcultura_lsd.m3u8?vhost=player-tvcultura.stream.uol.com.br
+#EXTINF:-1 tvg-chno="4",GLOBO ALTERNATIVA
+https://t5r4e3w2q1y0ty.s23-cloudfront-net.lat/_temp/globosp.m3u8
+#EXTINF:-1 tvg-chno="5",BAND NACIONAL
+https://hqf6tcxuhk.singularcdn.net.br/live/019a797e-eeb8-7eda-9518-132403ccb160/s1/playlist-720p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzNjllOGM0LTk5MjgtNDEzOS1hZDA1LTdmNTZjYWYzMTJmNiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ5NjA1MSwibmJmIjoxNzkxNDk2MDUxLCJleHAiOjE3OTQwODgwNTEsInVyaV9zdWIiOiIvMDE5YTc5N2UtZWViOC03ZWRhLTk1MTgtMTMyNDAzY2NiMTYwLyIsInVpZCI6ImUzNjllOGM0LTk5MjgtNDEzOS1hZDA1LTdmNTZjYWYzMTJmNiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.9XnCTzqLR_v8eYxksiNF9T_uadyDtZah3u3KC1nztK4&uid=e369e8c4-9928-4139-ad05-7f56caf312f6
+#EXTINF:-1 tvg-chno="7",RECORDTV NACIONAL
+https://40bbd8a95d080fec59c9dbaa31e4f533.s23-cloudfront-net.lat/8e8e8b142192ea65/recordsp.txt
+#EXTINF:-1,CANAL EDUCAÇÃO
+https://canaleducacao-stream.ebc.com.br/EDUCACAO-avc1_1800000=10000.m3u8
+#EXTINF:-1,FUTURA
+https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91_output_0.m3u8?session=DBJFGa9qWXzFKyCyC9q9oQ
+#EXTINF:-1,CANAL GOV
+https://canalgov-stream.ebc.com.br/GOV-avc1_1800000=10000.m3u8
+#EXTINF:-1,TV PAI ETERNO
+https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w2047046866.m3u8
+#EXTINF:-1,TV EVANGELIZAR
+https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8
+#EXTINF:-1,TV APARECIDA
+https://ff31a6aa978368a0d5990e1c2ecc1fc2.s23-cloudfront-net.lat/8e8e8b142192ea65/aparecida.txt
+#EXTINF:-1,TV CÂMARA
+https://stream3.camara.gov.br/tv1/video1_stream.m3u8
+#EXTINF:-1,AGROCANAL
+https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8
+#EXTINF:-1,IMPD TV
+https://igrejamundial.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1,ISTV
+https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
+#EXTINF:-1,L!KE (CANAL DA CLARO)
+https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265_720p_high.m3u8
+#EXTINF:-1,RBATV
+https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
+#EXTINF:-1,RECORD NEWS
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
+#EXTINF:-1,REDE BRASIL
+https://redebrasil.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1,GE TV
+https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist720p.m3u8
+#EXTINF:-1,CAZÉ TV
+https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/1080p-cc/index.m3u8
+#EXTINF:-1,CANAL GOAT
+https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
+#EXTINF:-1,REDE MEIO NORTE
+https://maystreaming.cloudecast.com/redemeio/tracks-v1a1/mono.m3u8
+#EXTINF:-1,TV BRASIL
+https://tvbrasil-stream.ebc.com.br/EBC_HD-avc1_2300000=10000.m3u8
+#EXTINF:-1,TV CANÇÃO NOVA
+https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/chunklist_w1263483199.m3u8
+#EXTINF:-1,TV NOVO TEMPO
+https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/chunklist_b3628000_slpor.m3u8
+#EXTINF:-1,REDE GOSPEL
+https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/chunklist.m3u8
+#EXTINF:-1,REDE VIDA
+https://live.eu-north-1a.cf.dmcdn.net/sec2(MPVNaNvX6ellE-46cdGK7pvp7xoXUp51k_y4sLVD36scNy41DBnbH9xaWCKXw_t2Zkru8Be3UP8-iOqsPW_wKDgXYE7pMxpkzaoTyS_DAIKwCwq7DEwML3yPO3mGf0yw)/dm/3/xb1dec2/s/live-480.m3u8#cell=lcf-eu-north-1a
+#EXTINF:-1,BANDNEWS
+https://cdn.phototourl.com/member/2026-10-14-4d430d98-45e7-4967-9418-737d8aaab5ed.png
+#EXTINF:-1,CNN BRASIL
+https://cdn.phototourl.com/member/2026-10-14-4d430d98-45e7-4967-9418-737d8aaab5ed.png
+#EXTINF:-1,JOVEM PAN NEWS
+https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+#EXTINF:-1,REDE TV NACIONAL
+https://live.eu-north-1a.cf.dmcdn.net/sec2(AQeTRWy2BM7nBYfe2l2AFD_fPJXSGustdUiii9biDfGv37lDh3g25XV6VZ_QZT6MxAxUw3j7PSGrpkBFrFek0eSbSJq5jD9pdwSXI0LxSGCfkWHhAjcAj5sO8cxEvza9)/dm/3/x8xps0s/d/live-720.m3u8#cell=lcf-eu-north-1a
+#EXTINF:-1,XSPORTS
+https://cr7v.short.gy/manoitv/X-Sports/Index.m3u8
+#EXTINF:-1,RIT
+https://cdn-origin.smartplay.pe/soultv-rittv/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1,CANAL DO BOI
+https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/chunklist.m3u8
+#EXTINF:-1,BRTVMAX
+https://video11.logicahost.com.br/brtvmax/brtvmax/chunklist_w123537190.m3u8
+#EXTINF:-1,CANAL DO CRIADOR
+https://stream01.canalrural.com.br/crur/cr3/chunklist_w1460324143.m3u8
+#EXTINF:-1,REDE SUPER
+https://tv02.zas.media:1936/redesuper/redesuper/chunklist_w2115586258.m3u8
+#EXTINF:-1,REDE SÉCULO 21
+https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/chunklist.m3u8
+#EXTINF:-1,REDE GAZETA
+https://painel.redegazetabrasil.com.br/hls/canal1/index.m3u8
+#EXTINF:-1,AGRO BRASIL TV
+https://live.agrobrasiltv.com.br/memfs/0f1f8f3d-96cb-4792-babe-c2169f30a577_output_0.m3u8?session=XB8YNAjUV6mZuqrCGaLgL8
+#EXTINF:-1,CANAL RURAL
+https://stream01.canalrural.com.br/crur/cr2/chunklist_w85238198.m3u8
+#EXTINF:-1,SESC TV
+https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImUzNjllOGM0LTk5MjgtNDEzOS1hZDA1LTdmNTZjYWYzMTJmNiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTUwMDM4NiwibmJmIjoxNzkxNTAwMzg2LCJleHAiOjE3OTQwOTIzODYsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6ImUzNjllOGM0LTk5MjgtNDEzOS1hZDA1LTdmNTZjYWYzMTJmNiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.d9p7HGAAxEkiUi5_N9GWimu6s9Q4TgZhmiGvbR-j-cU&uid=e369e8c4-9928-4139-ad05-7f56caf312f6
+#EXTINF:-1,COM BRASIL
+https://br5093.streamingdevideo.com.br/abc/abc/chunklist_w970209730.m3u8
+#EXTINF:-1,TERRAVIVA
+https://live.eu-north-1a.cf.dmcdn.net/sec2(qKOIX7kBv0OXgdBsKJc826HV_Q2WyDlulck93Onzmo6AvHaG2zZp9loULefYcyqsuKJq8HrqfUx5i4IErKw7Y2lEukUrvdYPlE0De8hFUbx-LbiBjzogck9oOvTS1gks)/dm/3/x8qceqq/s/live-720.m3u8#cell=lcf-eu-north-1a
+#EXTINF:-1,REDE VIDA +
+https://lbgo.bozztv.com/ssh101/ssh101/redevidamais3/chunks.m3u8?lb_backend_hint=6
+#EXTINF:-1,REDE VIDA EDUCAÇÃO
+https://lbgo.bozztv.com/ssh101/ssh101/redevidaeducaca/chunks.m3u8?lb_backend_hint=7
+#EXTINF:-1,TV UNIVERSAL
+https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/chunklist_1e4b91e6-a66f-4a6e-96c7-728b3e067f79.m3u8
+#EXTINF:-1,CNT RJ
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(IXmX1CL3CWJUp64r_Tdwb5zWqfbygBz4ou1Op7garaf6Rkb0LLGbqzITHBZO1c6XzamW2SyFtd8waBSBu8mGlj3TxODoUb84aWNI0z1_yDl4LjJaspqpD8S0ZQxkA0Np8WgHjPpDQ6GUZSM54-y4k5kT7AsyqPVoN2zDguFxhNHGFl5jFG4moOmjyWtc_XxU)/cloud/3/x9zdz6o/d/live-h264-480.m3u8?startdate=2026-06-15T16%3A41%3A10%2B0000#cell=lcf2-eu-north-1b
+#EXTINF:-1,TV GAZIN
+https://video09.logicahost.com.br/tvgazin/tvgazin/chunklist_w248922223.m3u8
+#EXTINF:-1,TV DIÁRIO - FORTALEZA
+https://cdn-diariosm.ciclano.io:1443/diariosm/diariosm/playlist.m3u8
+#EXTINF:-1,TVE BAHIA
+https://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
+#EXTINF:-1,TV PARANÁ TURISMO
+https://aovivo.paranaeducativa.pr.gov.br/hls/tve.m3u8
+#EXTINF:-1,TV DIÁRIO DO SERTÃO
+https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/playlist.m3u8
+#EXTINF:-1,AMAZONSAT
+https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8?ManoTV
+#EXTINF:-1,PLAY TV
+https://isaocorp.cloudecast.com/playtv/index.m3u8
+#EXTINF:-1,TV UNIÃO - FORTALEZA
+https://pushapp.uniaoplay.com.br/hls/0/stream.m3u8
+#EXTINF:-1,CNN MONEY (CORREÇÃO DE VÍDEO)
+https://amg01391-sbtinfast-amg01391c11-lg-br-9982.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01391-addigital-cnnmoneyhevc-lgbr/cb7d3e167b766f899298376cd2f742a3d1523481573a853d6afb5e9024c34e5386baa2c3e719ee3a54bd40a33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a0cc0541362d5ec2d0d8716bc6d4a46bb5e200564cdf522d5122fb99c1ad72672debdaa346a2605468f2e05a7ff03f6e0e05841c66cbfb10248854c14b1d30090cb19b887ca5898519224f611cf92f18bd50dd182c331b456b33258157a7fc0d634c69b0ab4d99e3a3fcc23711f2c6f8cd2fb74f38fe73d217ecabdad9d77fe09c78557f90a558821e88100ade811c73aa8f45aa8ed9ad2475330a7c521016dc0b7e7e2ff44ab8ee53e595d8bd305b932aba629354878685a199df8d91d87c25aa5b72cba84680834cfab88faf7bdaee0aa844690248592bac87d0a796a0a06894ab1da43ef698c28e69e48616b444afbce0e849e8f0a79226e969052d1241ebbf08297905b689d2e480ca828f2733141e0782c70ec26fcda1b698a2d05cc751ef34a3a8d47b3e979a1e98bab5675e59ef443f96efdbc4587a555e73e6a2b77d9981b564b4872c7fd265c600ba46bd0939bb139597aaf9dabd9cf5c3f0b3c6d222f83f0e87d9ece8d692a1fcf572977675270b201c562cb0f590a4c914b33cdd8b34cb047c3cf536004a86ce60b0e0f76c80d6243/85/1920x1080_3894255/index.m3u8
+#EXTINF:-1,VIVAX TV
+https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
+#EXTINF:-1,MAIS BRASIL TV
+https://v2.cloudecast.com/maistv/tracks-v1a1/mono.m3u8
+#EXTINF:-1,REDE MINAS
+https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+#EXTINF:-1,CGTN
+https://video.cgtn.com/news/2026-06-27/The-CPC-s-105-year-journey-Why-it-stands-strong--1OiDkxVemWs/video/wu_1js2aogfm11et18n3te91ork15cma/6000000-1920x1080.m3u8
+#EXTINF:-1 radio="true",RÁDIO VERDES CAMPOS 103.5 FM
+https://player.rpmhost.com.br/proxy/8104?type=.flv
+#EXTINF:-1 radio="true",RÁDIO GLOBO 98.1 FM
+https://26673.live.streamtheworld.com:443/RADIO_GLOBO_RJAAC.aac?dist=radioscombr?type=.flv
+#EXTINF:-1 radio="true",RÁDIO BANDEIRANTES 107.3 FM
+https://27323.live.streamtheworld.com:443/RADIOBANDEIRANTESAAC.aac?dist=RADIOSNET?type=.flv
+#EXTINF:-1 radio="true",RÁDIO BANDNEWS 96.9 FM
+https://26573.live.streamtheworld.com:443/BANDNEWSFM_SPAAC.aac?dist=radios.com.br?type=.flv
+#EXTINF:-1 radio="true",BH FM 102.1 FM
+https://24273.live.streamtheworld.com:443/BHFMAAC.aac?dist=radioscombr?type=.flv
+#EXTINF:-1,RÁDIO JP NEWS 100.9 FM
+https://stream-281.surfernetwork.com/vlcraijc6yiuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2bGNyYWlqYzZ5aXV2IiwiaG9zdCI6InN0cmVhbS0yODEuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJXbmhvd241TFRsR0R5R2hZd0Y1M2xnIiwiaWF0IjoxNzkxNzMzNTQ3LCJleHAiOjE3OTE3MzM2MDd9.2svxY9-fecC9RymNxvH6RuRhJ-_hGjjPN7AiGjRUlbk
+#EXTINF:-1,NATIVA FM
+https://24463.live.streamtheworld.com:443/NATIVA_SPAAC.aac?dist=radios.com.br
+#EXTINF:-1,APARECIDA FM
+https://aparecida.jmvstream.com/stream
+#EXTINF:-1,RÁDIO VERDES MARES FM
+https://jvcs2dtro0.zoeweb.tv/z18-live/stream/chunklist.m3u8
+#EXTINF:-1,RÁDIO TV JUSTIÇA
+https://server01.ouvir.radio.br:8036/stream
+#EXTINF:-1,RÁDIO NERY FM
+https://stm17.xcast.com.br:9534/stream
+#EXTINF:-1,RÁDIO FM 93 MHZ
+https://5a2b083e9f360.streamlock.net/93fmrr/93fmrr.stream/chunklist_w2134765877.m3u8
+#EXTINF:-1,RÁDIO MEIO NORTE
+https://webradio.amsolution.com.br/radio/8390/esperantina
+#EXTINF:-1,RÁDIO NOVO TEMPO
+https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntAfonsoClaudioES.smil/chunklist_b64000_slpor.m3u8
+#EXTINF:-1,RÁDIO MAANAIM
+https://65492b4a9e231.streamlock.net/liverm/rmaac/chunklist_w1197977614.m3u8
+#EXTINF:-1,RÁDIO ISFM
+https://r16.ciclano.io/proxy/fundac16/stream
+#EXTINF:-1,RÁDIO MELPHIS FM
+https://stm28.xcast.com.br:10778/stream
+#EXTINF:-1,RÁDIO NOVA BRASIL
+https://24233.live.streamtheworld.com:443/NOVABRASIL_SSAAAC.aac?dist=cadena-app
+#EXTINF:-1,RÁDIO EVANGELIZAR FM
+https://8239.brasilstream.com.br/stream?origem=radios.com.br
+#EXTINF:-1,RÁDIO VOX GOSPEL FM
+https://servidor25.brlogic.com:7062/live
+#EXTINF:-1,RÁDIO RBC FM
+https://stm8.conectastreaming.com:8626/stream
+#EXTINF:-1,RÁDIO GOV
+https://redenacionalderadio-stream.ebc.com.br/ebc/redenacionalderadio/RADIO_GOV-mp4a_212000_eng=20000.m3u8
+#EXTINF:-1,RÁDIO JORNAL
+https://str1.streamhostpg.com.br:8124/stream
+#EXTINF:-1,RÁDIO SENADO
+https://www12.senado.leg.br/radiosenado/fmaac/chunklist_w243071472.m3u8
+#EXTINF:-1,RÁDIO ITALAIA
+https://8903.brasilstream.com.br/stream
+#EXTINF:-1,RÁDIO CÂMARA
+https://8493.brasilstream.com.br/stream
+#EXTINF:-1,RÁDIO CANÇÃO NOVA SÃO PAULO
+https://servidor15-5.brlogic.com:7126/live
+#EXTINF:-1,RÁDIO CANÇÃO NOVA - ESPERANÇA
+https://streaming.fox.srv.br:8112/stream
+#EXTINF:-1,RÁDIO SAUDADE FM
+https://27423.live.streamtheworld.com:443/SAUDADE_FMAAC.aac?dist=radios.com.br
+#EXTINF:-1,RÁDIO REDE VIDA
+https://r15.ciclano.io/proxy/diariofm/stream
+#EXTINF:-1,RÁDIO BOA NOVA
+https://8592.brasilstream.com.br/stream
+#EXTINF:-1,RÁDIO REDE SUPER
+https://9000.brasilstream.com.br/stream
+#EXTINF:-1,RÁDIO IMACULADA
+https://stm1.voxpainel.com.br:7068/stream
+#EXTINF:-1,RÁDIO CBN SÃO PAULO
+https://24503.live.streamtheworld.com:443/CBN_SPAAC.aac?dist=radioscombr
+#EXTINF:-1,RÁDIO CLUBE NEWS
+https://servidor14-3.brlogic.com:7540/live
+#EXTINF:-1,RÁDIO ARARIPE FM
+https://stream.ouveai.com.br/proxy/radioararifm?mp=/stream
+#EXTINF:-1,RÁDIO GRANDE SERRA FM
+https://streaming.livespanel.com:6744/stream
+#EXTINF:-1,RÁDIO ANTENA 1 SÃO PAULO
+https://antenaone.crossradio.com.br/stream/1;
+#EXTINF:-1,RÁDIO CULTURA FM PICOS
+https://streaming.sistemakfmidia.com.br/listen/culturadepicoscombr/radio.mp3
+#EXTINF:-1,RÁDIO CIDADE VERDE
+https://ssl1.transmissaodigital.com:20010/;?type=.flv
+#EXTINF:-1 tvg-chno="11",SBT CIDADE VERDE
+https://6836041ea1117.streamlock.net/cverde/cverde/chunklist_w518998321.m3u8
